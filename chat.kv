@@ -9,15 +9,14 @@ MDScreen:
                         [['menu', lambda x: nav_drawer.set_state("open")]]
 
                 MDTextField:
-                    size_hint_x: .96
+                    size_hint_x: .80
                     multiline: False
                     hint_text: "Type your Question"
-                    icon_right: "language-python"
-                    pos_hint: {"center_x": .5, "center_y": .15}
+                    pos_hint: {"center_x": .5, "center_y": .05}
 
-                MDRaisedButton:
-	                text:"Search"
-	                pos_hint: {"center_x": .5, "center_y": 0.05}
+                MDIconButton:
+	                icon:"send"
+	                pos_hint: {"center_x": .95, "center_y": .05}
 
         MDNavigationDrawer:
             id: nav_drawer
@@ -40,7 +39,7 @@ MDScreen:
 
                 TwoLineIconListItem:
                     text:"Nirmal P"
-                    secondary_text:"@nNirmalcraz"
+                    secondary_text:"@Nirmalcraz"
 
                     IconLeftWidget:
                         icon: "github"
