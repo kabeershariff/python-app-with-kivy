@@ -1,15 +1,21 @@
 MDScreen:
-    MDTopAppBar:
-        title: "ChatBot"
-        pos_hint: {"center_x": .5, "center_y": .96}
+    MDNavigationLayout:
+        MDScreenManager:
+            MDScreen:
+                MDTopAppBar:
+                    title: "ChatBot"
+                    pos_hint: {"center_x": .5, "center_y": .96}
 
-    MDTextField:
-        size_hint_x: .96
-        multiline: True
-        hint_text: "Type your Question"
-        icon_right: "language-python"
-        pos_hint: {"center_x": .5, "center_y": .15}
+                MDTextField:
+                    size_hint_x: .96
+                    multiline: True
+                    hint_text: "Type your Question"
+                    icon_right: "language-python"
+                    pos_hint: {"center_x": .5, "center_y": .15}
 
-    MDRaisedButton:
-	    text:"Search"
-	    pos_hint: {"center_x": .5, "center_y": 0.05}
+                MDRaisedButton:
+	                text:"Search"
+	                pos_hint: {"center_x": .5, "center_y": 0.05}
+
+        MDNavigationDrawer:
+            id: nav_drawer
