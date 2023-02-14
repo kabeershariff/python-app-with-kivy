@@ -4,7 +4,9 @@ MDScreen:
             MDScreen:
                 MDTopAppBar:
                     title: "ChatBot"
-                    pos_hint: {"center_x": .5, "center_y": .96}
+                    pos_hint: {"top": 1}
+                    left_action_items:
+                        [['menu', lambda x: nav_drawer.set_state("open")]]
 
                 MDTextField:
                     size_hint_x: .96
@@ -38,7 +40,7 @@ MDScreen:
 
                 TwoLineIconListItem:
                     text:"Nirmal P"
-                    secondary_text:"@"
+                    secondary_text:"@nNirmalcraz"
 
                     IconLeftWidget:
                         icon: "github"
