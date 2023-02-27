@@ -1,5 +1,45 @@
+MDScreen:
+    MDNavigationLayout:
+        MDScreenManager:
+            MDScreen:
+                MDTopAppBar:
+                    title: "ChatBot"
+                    pos_hint: {"top": 1}
+                    left_action_items:
+                        [['menu', lambda x: nav_drawer.set_state("open")]]
 
-MDRaisedButton:
-	text:"CLICK ME"
-	md_bg_color: "red"
-	pos_hint: {"center_x": .5, "center_y": .5}
+                MDTextField:
+                    size_hint_x: .80
+                    multiline: False
+                    hint_text: "Type your Question"
+                    pos_hint: {"center_x": .5, "center_y": .05}
+
+                MDIconButton:
+	                icon:"send"
+	                pos_hint: {"center_x": .95, "center_y": .05}
+
+        MDNavigationDrawer:
+            id: nav_drawer
+
+            MDList:
+                pos_hint: {"center_x": .5, "center_y": .85}
+                TwoLineIconListItem:
+                    text:"Thariq Ahamed"
+                    secondary_text:"@itzthariq"
+
+                    IconLeftWidget:
+                        icon: "github"
+
+                TwoLineIconListItem:
+                    text:"Omar Shariff"
+                    secondary_text:"@kabeershariff"
+
+                    IconLeftWidget:
+                        icon: "github"
+
+                TwoLineIconListItem:
+                    text:"Nirmal P"
+                    secondary_text:"@Nirmalcraz"
+
+                    IconLeftWidget:
+                        icon: "github"
