@@ -6,7 +6,8 @@ class MainScreen(Screen):
     search_box = ObjectProperty()
 	
     def search(self):
-        print("Hehe")
+        query = self.search_box.text
+        print(f"{query}")
 
 class ChatApp(MDApp):
     def build(self):
