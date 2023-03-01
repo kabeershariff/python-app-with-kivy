@@ -1,45 +1,51 @@
-MDScreen:
-    MDNavigationLayout:
-        MDScreenManager:
-            MDScreen:
-                MDTopAppBar:
-                    title: "ChatBot"
-                    pos_hint: {"top": 1}
-                    left_action_items:
-                        [['menu', lambda x: nav_drawer.set_state("open")]]
+<MainScreen>:
+	search_box:search_box
+	
 
-                MDTextField:
-                    size_hint_x: .80
-                    multiline: False
-                    hint_text: "Type your Question"
-                    pos_hint: {"center_x": .5, "center_y": .05}
+	MDScreen:
+		MDNavigationLayout:
+			MDScreenManager:
+				MDScreen:
+					MDTopAppBar:
+						title: "ChatBot"
+						pos_hint: {"top": 1}
+						left_action_items:
+							[['menu', lambda x: nav_drawer.set_state("open")]]
 
-                MDIconButton:
-	                icon:"send"
-	                pos_hint: {"center_x": .95, "center_y": .05}
+					MDTextField:
+						size_hint_x: .80
+						multiline: False
+						hint_text: "Type your Question"
+						pos_hint: {"center_x": .5, "center_y": .05}
+						id: search_box
 
-        MDNavigationDrawer:
-            id: nav_drawer
+					MDIconButton:
+						icon:"send"
+						pos_hint: {"center_x": .95, "center_y": .05}
+						on_press: root.search()
 
-            MDList:
-                pos_hint: {"center_x": .5, "center_y": .85}
-                TwoLineIconListItem:
-                    text:"Thariq Ahamed"
-                    secondary_text:"@itzthariq"
+			MDNavigationDrawer:
+				id: nav_drawer
 
-                    IconLeftWidget:
-                        icon: "github"
+				MDList:
+					pos_hint: {"center_x": .5, "center_y": .85}
+					TwoLineIconListItem:
+						text:"Thariq Ahamed"
+						secondary_text:"@itzthariq"
 
-                TwoLineIconListItem:
-                    text:"Omar Shariff"
-                    secondary_text:"@kabeershariff"
+						IconLeftWidget:
+							icon: "github"
 
-                    IconLeftWidget:
-                        icon: "github"
+					TwoLineIconListItem:
+						text:"Omar Shariff"
+						secondary_text:"@kabeershariff"
 
-                TwoLineIconListItem:
-                    text:"Nirmal P"
-                    secondary_text:"@Nirmalcraz"
+						IconLeftWidget:
+							icon: "github"
 
-                    IconLeftWidget:
-                        icon: "github"
+					TwoLineIconListItem:
+						text:"Nirmal P"
+						secondary_text:"@Nirmalcraz"
+
+						IconLeftWidget:
+							icon: "github"
