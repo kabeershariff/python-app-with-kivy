@@ -26,6 +26,7 @@
 						multiline: False
 						hint_text: "Type your Question"
 						pos_hint: {"center_x": .5, "center_y": .05}
+						on_text_validate: root.search()
 						id: search_box
 
 					MDIconButton:
