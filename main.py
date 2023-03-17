@@ -9,7 +9,7 @@ class MainScreen(Screen):
 	
     def search(self):
         query = self.search_box.text
-        list_item = MDTextField(text=query, readonly=True, mode="rectangle" )
+        list_item = MDTextField(text=query, readonly=True, focus=False, mode="rectangle", icon_left="account-circle" )
         self.ids.chat_list.add_widget(list_item)
 
 class ChatApp(MDApp):
