@@ -10,7 +10,7 @@ class MainScreen(Screen):
     def search(self):
         query = self.search_box.text
         user_list_item = MDTextField(text=query, readonly=True, focus=False, mode="rectangle", icon_left="account-circle", multiline=True )
-        ai_list_item = MDTextField(text=query, readonly=True, focus=False, mode="rectangle", icon_right="robot-happy" , multiline=True )
+        ai_list_item = MDTextField(text="Please activate API key", readonly=True, focus=False, mode="rectangle", icon_right="robot-happy" , multiline=True )
         
         self.ids.chat_list.add_widget(user_list_item)
         self.ids.chat_list.add_widget(ai_list_item)

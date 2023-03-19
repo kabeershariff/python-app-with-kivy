@@ -13,8 +13,8 @@
 							[['menu', lambda x: nav_drawer.set_state("open")]]
 
 					MDScrollView:
-						size_hint_x: .80
-						size_hint_y: .80
+						size_hint_x: .88
+						size_hint_y: .70
 						pos_hint: {"center_x": .5, "center_y": .5}
 						MDList:
 							id:chat_list
@@ -26,6 +26,7 @@
 						multiline: False
 						hint_text: "Type your Question"
 						pos_hint: {"center_x": .5, "center_y": .05}
+						on_text_validate: root.search()
 						id: search_box
 
 					MDIconButton:
