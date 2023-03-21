@@ -7,7 +7,7 @@
 			MDScreenManager:
 				MDScreen:
 					MDTopAppBar:
-						title: "ChatBot"
+						title: "BotZilla"
 						pos_hint: {"top": 1}
 						left_action_items:
 							[['menu', lambda x: nav_drawer.set_state("open")]]
@@ -24,7 +24,7 @@
 					MDTextField:
 						size_hint_x: .80
 						multiline: False
-						hint_text: "Type your Question"
+						hint_text: "Speak with BotZilla"
 						pos_hint: {"center_x": .5, "center_y": .05}
 						on_text_validate: root.search()
 						id: search_box
@@ -54,7 +54,7 @@
 							icon: "github"
 
 					TwoLineIconListItem:
-						text:"Nirmal P"
+						text:"Nirmal"
 						secondary_text:"@Nirmalcraz"
 
 						IconLeftWidget:

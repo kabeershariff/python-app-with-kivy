@@ -23,7 +23,7 @@ class MainScreen(Screen):
 class ChatApp(MDApp):
     def build(self):
         self.theme_cls.theme_style="Dark"
-        self.theme_cls.primary_palette="Orange"
+        self.theme_cls.primary_palette="Red"
         return MainScreen()
         
 class Model():
