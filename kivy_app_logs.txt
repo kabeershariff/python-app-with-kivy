@@ -1,0 +1,49 @@
+03-24 23:10:52.007 I/python  (26471): [INFO   ] [Base        ] Leaving application in progress...
+03-24 23:10:52.008 I/python  (26471):  Traceback (most recent call last):
+03-24 23:10:52.008 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/app/main.py", line 41, in <module>
+03-24 23:10:52.008 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/app.py", line 955, in run
+03-24 23:10:52.008 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 574, in runTouchApp
+03-24 23:10:52.009 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 339, in mainloop
+03-24 23:10:52.009 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 383, in idle
+03-24 23:10:52.009 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 334, in dispatch_input
+03-24 23:10:52.009 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 263, in post_dispatch_input
+03-24 23:10:52.009 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+03-24 23:10:52.010 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/core/window/__init__.py", line 1660, in on_motion
+03-24 23:10:52.010 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+03-24 23:10:52.010 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/core/window/__init__.py", line 1677, in on_touch_down
+03-24 23:10:52.010 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+03-24 23:10:52.011 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/relativelayout.py", line 306, in on_touch_down
+03-24 23:10:52.011 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
+03-24 23:10:52.011 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+03-24 23:10:52.011 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/relativelayout.py", line 306, in on_touch_down
+03-24 23:10:52.011 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
+03-24 23:10:52.012 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+03-24 23:10:52.012 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
+03-24 23:10:52.012 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+03-24 23:10:52.012 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/screenmanager.py", line 1210, in on_touch_down
+03-24 23:10:52.012 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
+03-24 23:10:52.013 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+03-24 23:10:52.013 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/relativelayout.py", line 306, in on_touch_down
+03-24 23:10:52.013 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
+03-24 23:10:52.013 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+03-24 23:10:52.014 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivymd/uix/button/button.py", line 917, in on_touch_down
+03-24 23:10:52.014 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivymd/uix/behaviors/ripple_behavior.py", line 352, in on_touch_down
+03-24 23:10:52.014 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/behaviors/button.py", line 151, in on_touch_down
+03-24 23:10:52.014 I/python  (26471):    File "kivy/_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+03-24 23:10:52.014 I/python  (26471):    File "kivy/_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+03-24 23:10:52.015 I/python  (26471):    File "kivy/_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
+03-24 23:10:52.015 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/lang/builder.py", line 55, in custom_callback
+03-24 23:10:52.015 I/python  (26471):    File "/data/data/org.botzilla.botzilla/files/app/chat.kv", line 35, in <module>
+03-24 23:10:52.015 I/python  (26471):      on_press: root.search()
+03-24 23:10:52.016 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/app/main.py", line 18, in search
+03-24 23:10:52.016 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/app/main.py", line 31, in result
+03-24 23:10:52.016 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_resources/completion.py", line 25, in create
+03-24 23:10:52.016 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+03-24 23:10:52.016 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 216, in request
+03-24 23:10:52.017 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 509, in request_raw
+03-24 23:10:52.017 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 490, in _prepare_request_raw
+03-24 23:10:52.017 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 409, in request_headers
+03-24 23:10:52.017 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Lib/platform.py", line 1235, in platform
+03-24 23:10:52.017 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Lib/platform.py", line 196, in libc_ver
+03-24 23:10:52.018 I/python  (26471):  IsADirectoryError: [Errno 21] Is a directory: '/data/data/org.botzilla.botzilla/files/app'
+03-24 23:10:52.018 I/python  (26471): Python for android ended.
