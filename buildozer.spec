@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,kivymd==1.0.2,openai,tqdm,aiohttp,aiosignal,yarl,multidict,async-timeout,attrs,frozenlist,idna,charset-normalizer==2.1.1,requests,urllib3,pillow
+requirements = python3==3.10.6,kivy,kivymd==1.0.2,openai,tqdm,aiohttp,aiosignal,yarl,multidict,async-timeout,attrs,frozenlist,idna,charset-normalizer==2.1.1,requests,urllib3,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -47,7 +47,7 @@ requirements = python3,kivy,kivymd==1.0.2,openai,tqdm,aiohttp,aiosignal,yarl,mul
 #presplash.filename = %(source.dir)s/data/presplash.png
 
 # (str) Icon of the application
-#icon.filename = %(source.dir)s/data/icon.png
+icon.filename = icon.png
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
@@ -95,13 +95,13 @@ fullscreen = 0
 
 # (list) Permissions
 # (See https://python-for-android.readthedocs.io/en/latest/buildoptions/#build-options-1 for all the supported syntaxes and properties)
-android.permissions = android.permission.INTERNET, (name=android.permission.WRITE_EXTERNAL_STORAGE;maxSdkVersion=18), (name=android.permission.READ_EXTERNAL_STORAGE;maxSdkVersion=18)
+android.permissions = INTERNET, WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 31
+android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
 #android.minapi = 21
