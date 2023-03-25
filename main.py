@@ -2,16 +2,19 @@ from kivymd.app import MDApp
 from kivy.uix.screenmanager import Screen
 from kivy.properties import ObjectProperty
 from kivymd.uix.textfield import MDTextField
+from kivy.core.window import Window
 import openai
 import my_key
 
 
 openai.api_key = my_key.my_api_key
+Window.softinput_mode = 'below_target'
+
 
 class MainScreen(Screen):
     search_box = ObjectProperty()
     chat_list = ObjectProperty()
-	
+    
     def search(self):
         query = self.search_box.text
         user_list_item = MDTextField(text=query, readonly=True, focus=False, mode="rectangle", icon_left="account-circle", multiline=True )
