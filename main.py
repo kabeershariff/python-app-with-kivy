@@ -17,6 +17,7 @@ class MainScreen(Screen):
     
     def search(self):
         query = self.search_box.text
+        self.search_box.text = ""
         user_list_item = MDTextField(text=query, readonly=True, focus=False, mode="rectangle", icon_left="account-circle", multiline=True )
         ai_list_item = MDTextField(text=Model.result(query), readonly=True, focus=False, mode="rectangle", icon_right="robot-happy" , multiline=True )
         
