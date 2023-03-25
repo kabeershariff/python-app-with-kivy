@@ -1,49 +1,446 @@
-03-24 23:10:52.007 I/python  (26471): [INFO   ] [Base        ] Leaving application in progress...
-03-24 23:10:52.008 I/python  (26471):  Traceback (most recent call last):
-03-24 23:10:52.008 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/app/main.py", line 41, in <module>
-03-24 23:10:52.008 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/app.py", line 955, in run
-03-24 23:10:52.008 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 574, in runTouchApp
-03-24 23:10:52.009 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 339, in mainloop
-03-24 23:10:52.009 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 383, in idle
-03-24 23:10:52.009 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 334, in dispatch_input
-03-24 23:10:52.009 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 263, in post_dispatch_input
-03-24 23:10:52.009 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-03-24 23:10:52.010 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/core/window/__init__.py", line 1660, in on_motion
-03-24 23:10:52.010 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-03-24 23:10:52.010 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/core/window/__init__.py", line 1677, in on_touch_down
-03-24 23:10:52.010 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-03-24 23:10:52.011 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/relativelayout.py", line 306, in on_touch_down
-03-24 23:10:52.011 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
-03-24 23:10:52.011 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-03-24 23:10:52.011 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/relativelayout.py", line 306, in on_touch_down
-03-24 23:10:52.011 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
-03-24 23:10:52.012 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-03-24 23:10:52.012 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
-03-24 23:10:52.012 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-03-24 23:10:52.012 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/screenmanager.py", line 1210, in on_touch_down
-03-24 23:10:52.012 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
-03-24 23:10:52.013 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-03-24 23:10:52.013 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/relativelayout.py", line 306, in on_touch_down
-03-24 23:10:52.013 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
-03-24 23:10:52.013 I/python  (26471):    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-03-24 23:10:52.014 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivymd/uix/button/button.py", line 917, in on_touch_down
-03-24 23:10:52.014 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivymd/uix/behaviors/ripple_behavior.py", line 352, in on_touch_down
-03-24 23:10:52.014 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/behaviors/button.py", line 151, in on_touch_down
-03-24 23:10:52.014 I/python  (26471):    File "kivy/_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
-03-24 23:10:52.014 I/python  (26471):    File "kivy/_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
-03-24 23:10:52.015 I/python  (26471):    File "kivy/_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
-03-24 23:10:52.015 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/lang/builder.py", line 55, in custom_callback
-03-24 23:10:52.015 I/python  (26471):    File "/data/data/org.botzilla.botzilla/files/app/chat.kv", line 35, in <module>
-03-24 23:10:52.015 I/python  (26471):      on_press: root.search()
-03-24 23:10:52.016 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/app/main.py", line 18, in search
-03-24 23:10:52.016 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/app/main.py", line 31, in result
-03-24 23:10:52.016 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_resources/completion.py", line 25, in create
-03-24 23:10:52.016 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
-03-24 23:10:52.016 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 216, in request
-03-24 23:10:52.017 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 509, in request_raw
-03-24 23:10:52.017 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 490, in _prepare_request_raw
-03-24 23:10:52.017 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 409, in request_headers
-03-24 23:10:52.017 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Lib/platform.py", line 1235, in platform
-03-24 23:10:52.017 I/python  (26471):    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Lib/platform.py", line 196, in libc_ver
-03-24 23:10:52.018 I/python  (26471):  IsADirectoryError: [Errno 21] Is a directory: '/data/data/org.botzilla.botzilla/files/app'
-03-24 23:10:52.018 I/python  (26471): Python for android ended.
+14473 	03-25 12:19:33.923  2539  3212 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+14474 	03-25 12:19:36.856   811  2218 I WifiHAL : send gennl msg of len : 144 to apps
+14475 	03-25 12:19:36.857   811  2218 I WifiHAL : send gennl msg of len : 144 to apps
+14476 	03-25 12:19:36.859  1328 21765 I LOWI-9.0.0.87: [LOWI-Scan] lowi_close_record:Scan done in 60411731ms, 3 APs in scan results
+14477 	03-25 12:19:36.860  1328 21766 I LOWI-9.0.0.87: [LOWI-ROME-RTT] event_handler: invalid data
+14478 	03-25 12:19:39.021  1537  2264 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.botzilla.botzilla/org.kivy.android.PythonActivity bnds=[229,613][436,918]} from uid 10257
+14479 	03-25 12:19:39.023   796  3289 D audio_hw_primary: start_output_stream: enter: stream(0xe8a821a0)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+14480 	03-25 12:19:39.023   796  3289 I libqti-perfd-client: perf_lock_acq: handle: 0, duration: 0, arg3[0]: 257, arg4: 2
+14481 	03-25 12:19:39.023   796  3289 D audio_hw_primary: select_devices for use case (low-latency-playback)
+14482 	03-25 12:19:39.023   796  3289 D ultrasound_extn: dump_usecase_list: enter sensor_activated:0 hw_port_enabled:0
+14483 	03-25 12:19:39.023   796  3289 D ultrasound_extn: dump_usecase_list: select_devices entry usecase[#0]:(1, low-latency-playback) in_dev:(0, ) out_dv:(0, )
+14484 	03-25 12:19:39.023   796  3289 D msm8974_platform: platform_get_output_snd_device: g_play_select_spk: 0
+14485 	03-25 12:19:39.023   796  3289 D msm8974_platform: platform_get_output_snd_device: exit: snd_device(speaker), snd_device is 2
+14486 	03-25 12:19:39.023   796  3289 D audio_hw_primary: select_devices: out_snd_device(2: speaker) in_snd_device(0: )
+14487 	03-25 12:19:39.023   796  3289 D ultrasound_extn: ultrasound_select_devices_pre ultrasound_enabled:0 usecase(low-latency-playback), devices:2 in_snd_device(0, ), out_snd_device(2, speaker)
+14488 	03-25 12:19:39.023   796  3289 D ultrasound_extn: dump_usecase_list: enter sensor_activated:0 hw_port_enabled:0
+14489 	03-25 12:19:39.023   796  3289 D ultrasound_extn: dump_usecase_list: select_devices_pre usecase[#0]:(1, low-latency-playback) in_dev:(0, ) out_dv:(0, )
+14490 	03-25 12:19:39.023   796  3289 I msm8974_platform: platform_check_and_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+14491 	03-25 12:19:39.023   796  3289 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+14492 	03-25 12:19:39.023   796  3289 I msm8974_platform: platform_check_and_set_codec_backend_cfg: new_snd_devices[0] is 2
+14493 	03-25 12:19:39.023   796  3289 I msm8974_platform: platform_check_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+14494 	03-25 12:19:39.024   796  3289 D msm8974_platform: platform_check_codec_backend_cfg:becf: updated afe: bitwidth 16, samplerate 48000 channels 2,backend_idx 0 usecase = 1 device (speaker)
+14495 	03-25 12:19:39.024   796  3289 D msm8974_platform: platform_check_codec_backend_cfg:becf: afe: RX_CDC_DMA_RX_0 SampleRate  set to KHZ_48
+14496 	03-25 12:19:39.025   796  3289 I msm8974_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 and sample rate: 48000, channels: 2
+14497 	03-25 12:19:39.025   796  3289 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+14498 	03-25 12:19:39.025   796  3289 D audio_hw_primary: check_usecases_codec_backend:becf: (107) check_usecases curr device: speaker, usecase device: backends match 0
+14499 	03-25 12:19:39.025   796  3289 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+14500 	03-25 12:19:39.025   796  3289 D hardware_info: hw_info_append_hw_type : device_name = speaker
+14501 	03-25 12:19:39.025   796  3289 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+14502 	03-25 12:19:39.025   796  3289 D audio_hw_primary: enable_snd_device: snd_device(2: speaker)
+14503 	03-25 12:19:39.025   796  3289 D msm8974_platform: platform_get_island_cfg_on_device:island cfg status on snd_device = (speaker 0)
+14504 	03-25 12:19:39.025   796  3289 D audio_route: Apply path: speaker
+14505 	03-25 12:19:39.039   796  3289 D audio_hw_utils: audio_extn_utils_update_stream_output_app_type_cfg Allowing 24 and above bits playback on speaker                   ONLY at default sampling rate
+14506 	03-25 12:19:39.039   796  3289 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+14507 	03-25 12:19:39.039   796  3289 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+14508 	03-25 12:19:39.040   796  3289 D audio_hw_utils: audio_extn_utils_get_app_sample_rate_for_device usecase low-latency-playback sample_rate 48000
+14509 	03-25 12:19:39.040   796  3289 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 15, sample_rate 48000, snd_device_be_idx 187
+14510 	03-25 12:19:39.040   796  3289 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+14511 	03-25 12:19:39.040   796  3289 D audio_hw_utils: audio_extn_utils_get_app_sample_rate_for_device usecase low-latency-playback sample_rate 48000
+14512 	03-25 12:19:39.040   796  3289 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 15, path = 0, app id = 0x11131, sample rate = 48000, use_case = 0,buffer_idx_w_path =0, afe_sample_rate = 48000, cal_mode = 1, offset_index = 0
+14513 	03-25 12:19:39.040   796  3289 D ACDB-LOADER: ACDB -> send_asm_topology
+14514 	03-25 12:19:39.040   796  3289 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+14515 	03-25 12:19:39.040   796  3289 D ACDB-LOADER: ACDB -> send_adm_topology
+14516 	03-25 12:19:39.040   796  3289 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+14517 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> send_audtable
+14518 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_COMMON_TABLE_SIZE
+14519 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_COMMON_TABLE
+14520 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL cal_type[11] acdb_id[15] app_type[69937]
+14521 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> send_audvoltable
+14522 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE_SIZE
+14523 	03-25 12:19:39.041   796  3289 D android.hardware.audio.service: Failed to fetch the lookup information of the device 0000000F 
+14524 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: Error: ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE_SIZE Returned = -19
+14525 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE, vol index 0
+14526 	03-25 12:19:39.041   796  3289 D android.hardware.audio.service: Failed to fetch the lookup information of the device 0000000F 
+14527 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: Error: ACDB AudProc vol returned = -19
+14528 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+14529 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_STREAM_TABLE_SIZE
+14530 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> send_audstrmtable
+14531 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_STREAM_TABLE
+14532 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 20
+14533 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> send_afe_topology
+14534 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+14535 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 15, Topology Id 1000ff03
+14536 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> send_afe_cal
+14537 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_INSTANCE_COMMON_TABLE_SIZE
+14538 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_INSTANCE_COMMON_TABLE
+14539 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL cal_type[16] acdb_id[15]
+14540 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 15 path = 0
+14541 	03-25 12:19:39.041   796  3289 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+14542 	03-25 12:19:39.041   796  3289 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+14543 	03-25 12:19:39.041   796  3289 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+14544 	03-25 12:19:39.041   796  3289 D audio_route: Apply path: low-latency-playback
+14545 	03-25 12:19:39.042   796  3289 D ultrasound_extn: ultrasound_select_devices_post: enter: engine_suspended: 0
+14546 	03-25 12:19:39.042   796  3289 D ultrasound_extn: dump_usecase_list: enter sensor_activated:0 hw_port_enabled:0
+14547 	03-25 12:19:39.042   796  3289 D ultrasound_extn: dump_usecase_list: select_devices_post usecase[#0]:(1, low-latency-playback) in_dev:(0, ) out_dv:(2, speaker)
+14548 	03-25 12:19:39.042   796  3289 D ultrasound_extn: ultrasound_switch_devices_post  enter
+14549 	03-25 12:19:39.042   796  3289 V ultrasound_extn: ultrasound_extn_set_disable: enter
+14550 	03-25 12:19:39.042   796  3289 V ultrasound_extn: ultrasound_extn_set_disable: exit
+14551 	03-25 12:19:39.042   796  3289 D ultrasound_extn: dump_usecase_list: enter sensor_activated:0 hw_port_enabled:0
+14552 	03-25 12:19:39.042   796  3289 D ultrasound_extn: dump_usecase_list: select_devices exit usecase[#0]:(1, low-latency-playback) in_dev:(0, ) out_dv:(2, speaker)
+14553 	03-25 12:19:39.042   796  3289 D audio_hw_primary: select_devices: done
+14554 	03-25 12:19:39.042   796  3289 D msm8974_platform: platform_set_channel_map mixer_ctl_name:Playback Channel Map9
+14555 	03-25 12:19:39.042   796  3289 D msm8974_platform: platform_set_channel_map: set mapping(1 2 0 0 0 0 0 0) for channel:2
+14556 	03-25 12:19:39.043   796  3289 E msm8974_platform: platform_set_channel_map: Could not set ctl, error:-1 ch_count:2
+14557 	03-25 12:19:39.064  1537  2264 D CoreBackPreview: Window{a971224 u0 Splash Screen org.botzilla.botzilla}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@ba6b53, mPriority=0}
+14558 	03-25 12:19:39.065  2292  2323 E OpenGLRenderer: Unable to match the desired swap behavior.
+14559 	03-25 12:19:39.072  2292  2323 W Parcel  : Expecting binder but got null!
+14560 	03-25 12:19:39.083  1537  1769 I ActivityManager: Start proc 25759:org.botzilla.botzilla/u0a338 for next-top-activity {org.botzilla.botzilla/org.kivy.android.PythonActivity}
+14561 	03-25 12:19:39.087 25759 25759 I tzilla.botzilla: Late-enabling -Xcheck:jni
+14562 	03-25 12:19:39.121   796  3289 I libqti-perfd-client: perf_lock_rel: handle: 233
+14563 	03-25 12:19:39.121   796  3289 D audio_hw_primary: aw_set_channel_reverse:becf: afe: aw_spin_switch  set to 0
+14564 	03-25 12:19:39.122 24770 24775 I adbd    : jdwp connection from 25759
+14565 	03-25 12:19:39.122   796  3289 D audio_hw_primary: start_output_stream: exit
+14566 	03-25 12:19:39.138  1297  2142 E statsd  : Found dropped events: 1 error -19 last atom tag 240 from uid 10338
+14567 	03-25 12:19:39.162 25759 25759 V GraphicsEnvironment: ANGLE Developer option for 'org.botzilla.botzilla' set to: 'default'
+14568 	03-25 12:19:39.165 25759 25759 V GraphicsEnvironment: ANGLE GameManagerService for org.botzilla.botzilla: false
+14569 	03-25 12:19:39.165 25759 25759 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+14570 	03-25 12:19:39.171 25759 25759 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+14571 	03-25 12:19:39.172 25759 25759 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+14572 	03-25 12:19:39.188 25759 25759 V PythonActivity: PythonActivity onCreate running
+14573 	03-25 12:19:39.188 25759 25759 V PythonActivity: About to do super onCreate
+14574 	03-25 12:19:39.188 25759 25759 V SDL     : Device: spes
+14575 	03-25 12:19:39.188 25759 25759 V SDL     : Model: 2201117TI
+14576 	03-25 12:19:39.188 25759 25759 V SDL     : onCreate()
+14577 	03-25 12:19:39.189 25759 25759 V PythonActivity: Did super onCreate
+14578 	03-25 12:19:39.189 25759 25759 V SDL     : getting identifier
+14579 	03-25 12:19:39.189 25759 25759 V SDL     : kind is layout and name lottie
+14580 	03-25 12:19:39.189 25759 25759 V SDL     : result is 0
+14581 	03-25 12:19:39.189 25759 25759 E tzilla.botzilla: Invalid resource ID 0x00000000.
+14582 	03-25 12:19:39.189 25759 25759 V SDL     : couldn't find lottie layout or animation, trying static splash
+14583 	03-25 12:19:39.189 25759 25759 V SDL     : getting identifier
+14584 	03-25 12:19:39.189 25759 25759 V SDL     : kind is drawable and name presplash
+14585 	03-25 12:19:39.189 25759 25759 V SDL     : result is 2130771969
+14586 	03-25 12:19:39.195 25759 25759 V SDL     : asked to get string presplash_color
+14587 	03-25 12:19:39.195 25759 25759 V SDL     : getting identifier
+14588 	03-25 12:19:39.195 25759 25759 V SDL     : kind is string and name presplash_color
+14589 	03-25 12:19:39.195 25759 25759 V SDL     : result is 2131034113
+14590 	03-25 12:19:39.204 25759 28801 V PythonActivity: Ready to unpack
+14591 	03-25 12:19:39.206 25759 28801 V pythonutil: Unpacking private app
+14592 	03-25 12:19:39.206 25759 28801 V pythonutil: Data version is 243a4f0241b329b3b6093517e153ed08b9efb002
+14593 	03-25 12:19:39.206 25759 25759 V SDL     : onStart()
+14594 	03-25 12:19:39.207 25759 25759 V PythonActivity: onResume()
+14595 	03-25 12:19:39.207 25759 25759 V SDL     : onResume()
+14596 	03-25 12:19:39.208 25759 28801 V pythonutil: Unpacking /data/app/~~c66ri-E1ZGMRrwHw0sARwQ==/org.botzilla.botzilla-AieJbvxu-ephqJ0FFUyJcw==/lib/arm64/libpybundle app
+14597 	03-25 12:19:39.209 25759 28801 V pythonutil: Data version is 243a4f0241b329b3b6093517e153ed08b9efb002
+14598 	03-25 12:19:39.222  1537  2846 D CoreBackPreview: Window{f54c54 u0 org.botzilla.botzilla/org.kivy.android.PythonActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@d8aecf2, mPriority=0}
+14599 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libSDL2.so
+14600 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_ttf.so
+14601 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libpython3.9.so
+14602 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libssl1.1.so
+14603 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libpng16.so
+14604 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libfreetype.so
+14605 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libmain.so
+14606 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libcrypto1.1.so
+14607 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libffi.so
+14608 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_image.so
+14609 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_mixer.so
+14610 	03-25 12:19:39.224 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libpybundle.so
+14611 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libc++_shared.so
+14612 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libsqlite3\.so against libsqlite3.so
+14613 	03-25 12:19:39.225 25759 25759 V pythonutil: Pattern libsqlite3\.so matched file libsqlite3.so
+14614 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libSDL2.so
+14615 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libSDL2_ttf.so
+14616 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libpython3.9.so
+14617 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libssl1.1.so
+14618 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libpng16.so
+14619 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libfreetype.so
+14620 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libmain.so
+14621 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libcrypto1.1.so
+14622 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libffi.so
+14623 	03-25 12:19:39.225 25759 25759 V pythonutil: Pattern libffi\.so matched file libffi.so
+14624 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libSDL2_image.so
+14625 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libSDL2_mixer.so
+14626 	03-25 12:19:39.225 25759 25759 V pythonutil: Checking pattern libffi\.so against libpybundle.so
+14627 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libffi\.so against libc++_shared.so
+14628 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libffi\.so against libsqlite3.so
+14629 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libSDL2.so
+14630 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libSDL2_ttf.so
+14631 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libpython3.9.so
+14632 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libssl1.1.so
+14633 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libpng16.so
+14634 	03-25 12:19:39.226 25759 25759 V pythonutil: Pattern libpng16\.so matched file libpng16.so
+14635 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libfreetype.so
+14636 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libmain.so
+14637 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libcrypto1.1.so
+14638 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libffi.so
+14639 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libSDL2_image.so
+14640 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libSDL2_mixer.so
+14641 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libpybundle.so
+14642 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libc++_shared.so
+14643 	03-25 12:19:39.226 25759 25759 V pythonutil: Checking pattern libpng16\.so against libsqlite3.so
+14644 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libSDL2.so
+14645 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libSDL2_ttf.so
+14646 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libpython3.9.so
+14647 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libssl1.1.so
+14648 	03-25 12:19:39.227 25759 25759 V pythonutil: Pattern libssl.*\.so matched file libssl1.1.so
+14649 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libpng16.so
+14650 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libfreetype.so
+14651 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libmain.so
+14652 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libcrypto1.1.so
+14653 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libffi.so
+14654 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libSDL2_image.so
+14655 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libSDL2_mixer.so
+14656 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libpybundle.so
+14657 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libc++_shared.so
+14658 	03-25 12:19:39.227 25759 25759 V pythonutil: Checking pattern libssl.*\.so against libsqlite3.so
+14659 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2.so
+14660 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_ttf.so
+14661 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libpython3.9.so
+14662 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libssl1.1.so
+14663 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libpng16.so
+14664 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libfreetype.so
+14665 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libmain.so
+14666 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libcrypto1.1.so
+14667 	03-25 12:19:39.228 25759 25759 V pythonutil: Pattern libcrypto.*\.so matched file libcrypto1.1.so
+14668 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libffi.so
+14669 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_image.so
+14670 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_mixer.so
+14671 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libpybundle.so
+14672 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libc++_shared.so
+14673 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libcrypto.*\.so against libsqlite3.so
+14674 	03-25 12:19:39.228 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libSDL2.so
+14675 	03-25 12:19:39.229 25759 25759 V pythonutil: Pattern libSDL2\.so matched file libSDL2.so
+14676 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libSDL2_ttf.so
+14677 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libpython3.9.so
+14678 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libssl1.1.so
+14679 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libpng16.so
+14680 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libfreetype.so
+14681 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libmain.so
+14682 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libcrypto1.1.so
+14683 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libffi.so
+14684 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libSDL2_image.so
+14685 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libSDL2_mixer.so
+14686 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libpybundle.so
+14687 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libc++_shared.so
+14688 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2\.so against libsqlite3.so
+14689 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2.so
+14690 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2_ttf.so
+14691 	03-25 12:19:39.229 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libpython3.9.so
+14692 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libssl1.1.so
+14693 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libpng16.so
+14694 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libfreetype.so
+14695 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libmain.so
+14696 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libcrypto1.1.so
+14697 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libffi.so
+14698 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2_image.so
+14699 	03-25 12:19:39.230 25759 25759 V pythonutil: Pattern libSDL2_image\.so matched file libSDL2_image.so
+14700 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2_mixer.so
+14701 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libpybundle.so
+14702 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libc++_shared.so
+14703 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_image\.so against libsqlite3.so
+14704 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2.so
+14705 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2_ttf.so
+14706 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libpython3.9.so
+14707 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libssl1.1.so
+14708 	03-25 12:19:39.230 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libpng16.so
+14709 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libfreetype.so
+14710 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libmain.so
+14711 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libcrypto1.1.so
+14712 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libffi.so
+14713 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2_image.so
+14714 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2_mixer.so
+14715 	03-25 12:19:39.231 25759 25759 V pythonutil: Pattern libSDL2_mixer\.so matched file libSDL2_mixer.so
+14716 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libpybundle.so
+14717 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libc++_shared.so
+14718 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_mixer\.so against libsqlite3.so
+14719 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2.so
+14720 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2_ttf.so
+14721 	03-25 12:19:39.231 25759 25759 V pythonutil: Pattern libSDL2_ttf\.so matched file libSDL2_ttf.so
+14722 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libpython3.9.so
+14723 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libssl1.1.so
+14724 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libpng16.so
+14725 	03-25 12:19:39.231 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libfreetype.so
+14726 	03-25 12:19:39.232 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libmain.so
+14727 	03-25 12:19:39.232 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libcrypto1.1.so
+14728 	03-25 12:19:39.232 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libffi.so
+14729 	03-25 12:19:39.232 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2_image.so
+14730 	03-25 12:19:39.232 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2_mixer.so
+14731 	03-25 12:19:39.232 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libpybundle.so
+14732 	03-25 12:19:39.232 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libc++_shared.so
+14733 	03-25 12:19:39.232 25759 25759 V pythonutil: Checking pattern libSDL2_ttf\.so against libsqlite3.so
+14734 	03-25 12:19:39.232 25759 25759 V pythonutil: Loading library: sqlite3
+14735 	03-25 12:19:39.233 25759 25759 V pythonutil: Loading library: ffi
+14736 	03-25 12:19:39.233 25759 25759 V pythonutil: Loading library: png16
+14737 	03-25 12:19:39.234 25759 25759 V pythonutil: Loading library: ssl1.1
+14738 	03-25 12:19:39.235 25759 25759 V pythonutil: Loading library: crypto1.1
+14739 	03-25 12:19:39.236 25759 25759 V pythonutil: Loading library: SDL2
+14740 	03-25 12:19:39.237 25759 25759 V pythonutil: Loading library: SDL2_image
+14741 	03-25 12:19:39.237 25759 25759 V pythonutil: Loading library: SDL2_mixer
+14742 	03-25 12:19:39.238 25759 25759 V pythonutil: Loading library: SDL2_ttf
+14743 	03-25 12:19:39.241 25759 25759 V pythonutil: Loading library: python3.5m
+14744 	03-25 12:19:39.243 25759 25759 V pythonutil: Library loading error: dlopen failed: library "libpython3.5m.so" not found
+14745 	03-25 12:19:39.243 25759 25759 V pythonutil: Loading library: python3.6m
+14746 	03-25 12:19:39.244 25759 25759 V pythonutil: Library loading error: dlopen failed: library "libpython3.6m.so" not found
+14747 	03-25 12:19:39.244 25759 25759 V pythonutil: Loading library: python3.7m
+14748 	03-25 12:19:39.244 25759 25759 V pythonutil: Library loading error: dlopen failed: library "libpython3.7m.so" not found
+14749 	03-25 12:19:39.244 25759 25759 V pythonutil: Loading library: python3.8
+14750 	03-25 12:19:39.245 25759 25759 V pythonutil: Library loading error: dlopen failed: library "libpython3.8.so" not found
+14751 	03-25 12:19:39.245 25759 25759 V pythonutil: Loading library: python3.9
+14752 	03-25 12:19:39.246 25759 25759 V pythonutil: Loading library: main
+14753 	03-25 12:19:39.247 25759 25759 V pythonutil: Loaded everything!
+14754 	03-25 12:19:39.247 25759 25759 V SDL     : nativeSetupJNI()
+14755 	03-25 12:19:39.247 25759 25759 V SDL     : AUDIO nativeSetupJNI()
+14756 	03-25 12:19:39.247 25759 25759 V SDL     : CONTROLLER nativeSetupJNI()
+14757 	03-25 12:19:39.266 25759 25759 V PythonActivity: Setting env vars for start.c and Python to use
+14758 	03-25 12:19:39.266 25759 25759 V PythonActivity: Access to our meta-data...
+14759 	03-25 12:19:39.267 25759 25759 I PythonActivity: Surface will NOT be transparent
+14760 	03-25 12:19:39.279 25759 28798 I AdrenoGLES-0: QUALCOMM build                   : 3d24e2bbef, I3c0bc64a9d
+14761 	03-25 12:19:39.279 25759 28798 I AdrenoGLES-0: Build Date                       : 11/10/21
+14762 	03-25 12:19:39.279 25759 28798 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.16
+14763 	03-25 12:19:39.279 25759 28798 I AdrenoGLES-0: Local Branch                     : 
+14764 	03-25 12:19:39.279 25759 28798 I AdrenoGLES-0: Remote Branch                    : 
+14765 	03-25 12:19:39.279 25759 28798 I AdrenoGLES-0: Remote Branch                    : 
+14766 	03-25 12:19:39.279 25759 28798 I AdrenoGLES-0: Reconstruct Branch               : 
+14767 	03-25 12:19:39.279 25759 28798 I AdrenoGLES-0: Build Config                     : S P 10.0.7 AArch64
+14768 	03-25 12:19:39.279 25759 28798 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+14769 	03-25 12:19:39.282 25759 25759 V SDL     : surfaceCreated()
+14770 	03-25 12:19:39.282 25759 25759 V SDL     : surfaceChanged()
+14771 	03-25 12:19:39.282 25759 25759 V SDL     : Window size: 1080x2241
+14772 	03-25 12:19:39.283 25759 25759 V SDL     : Device size: 1080x2400
+14773 	03-25 12:19:39.286 25759 28798 I AdrenoGLES-0: PFP: 0x016ee197, ME: 0x00000000
+14774 	03-25 12:19:39.286   809   809 I sensors-hal: batch:242, android.sensor.accelerometer/11, period=20000000, max_latency=0
+14775 	03-25 12:19:39.286   809   809 I sensors-hal: set_config:63, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+14776 	03-25 12:19:39.286   809   809 I sensors-hal: batch:251, android.sensor.accelerometer/11, period=20000000, max_latency=0 request completed
+14777 	03-25 12:19:39.287   809   809 I sensors-hal: flush:271, android.sensor.accelerometer/11
+14778 	03-25 12:19:39.287   809   809 I sensors-hal: flush:277, android.sensor.accelerometer/11 completed
+14779 	03-25 12:19:39.287   809 28714 I sensors-hal: ssc_conn_resp_cb:663, resp_value = 0
+14780 	03-25 12:19:39.287   809 28714 I sensors-hal: ssc_conn_resp_cb:663, resp_value = 0
+14781 	03-25 12:19:39.288 25759 25759 E SurfaceSyncer: Failed to find sync for id=0
+14782 	03-25 12:19:39.290 25759 28798 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+14783 	03-25 12:19:39.290 25759 28798 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+14784 	03-25 12:19:39.289 25759 25759 W RenderThread: type=1400 audit(0.0:3298): avc: denied { search } for name="5900000.qcom,kgsl-3d0" dev="sysfs" ino=20781 scontext=u:r:untrusted_app_30:s0:c82,c257,c512,c768 tcontext=u:object_r:sysfs_msm_subsys:s0 tclass=dir permissive=0 app=org.botzilla.botzilla
+14785 	03-25 12:19:39.297 25759 28804 V SDL     : Running main function SDL_main from library /data/app/~~c66ri-E1ZGMRrwHw0sARwQ==/org.botzilla.botzilla-AieJbvxu-ephqJ0FFUyJcw==/lib/arm64/libmain.so
+14786 	03-25 12:19:39.297 25759 28804 V PythonActivity: appConfirmedActive() -> preparing loading screen removal
+14787 	03-25 12:19:39.297 25759 28804 V SDL     : nativeRunMain()
+14788 	03-25 12:19:39.298 25759 28804 I python  : Initializing Python for Android
+14789 	03-25 12:19:39.298 25759 28804 I python  : Setting additional env vars from p4a_env_vars.txt
+14790 	03-25 12:19:39.298 25759 28804 I python  : Changing directory to the one provided by ANDROID_ARGUMENT
+14791 	03-25 12:19:39.298 25759 28804 I python  : /data/user/0/org.botzilla.botzilla/files/app
+14792 	03-25 12:19:39.298 25759 28804 I python  : Preparing to initialize python
+14793 	03-25 12:19:39.298 25759 28804 I python  : _python_bundle dir exists
+14794 	03-25 12:19:39.298 25759 28804 I python  : calculated paths to be...
+14795 	03-25 12:19:39.298 25759 28804 I python  : /data/user/0/org.botzilla.botzilla/files/app/_python_bundle/stdlib.zip:/data/user/0/org.botzilla.botzilla/files/app/_python_bundle/modules
+14796 	03-25 12:19:39.298 25759 28804 I python  : set wchar paths...
+14797 	03-25 12:19:39.302   819   819 I SDM     : HWCDisplay::GetColorModeCount: Supported color mode count = 3
+14798 	03-25 12:19:39.302   819   819 I SDM     : HWCDisplay::GetColorModes: Color mode = 0 is supported
+14799 	03-25 12:19:39.302   819   819 I SDM     : HWCDisplay::GetColorModes: Color mode = 7 is supported
+14800 	03-25 12:19:39.302   819   819 I SDM     : HWCDisplay::GetColorModes: Color mode = 9 is supported
+14801 	03-25 12:19:39.303 25759 28798 E OpenGLRenderer: Unable to match the desired swap behavior.
+14802 	03-25 12:19:39.309   501   501 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+14803 	03-25 12:19:39.309 25759 28798 I Gralloc4: Adding additional valid usage bits: 0x8202000
+14804 	03-25 12:19:39.317 25759 25759 W SDLThread: type=1400 audit(0.0:3299): avc: granted { execute } for path="/data/data/org.botzilla.botzilla/files/app/_python_bundle/modules/zlib.cpython-39.so" dev="dm-32" ino=151678 scontext=u:r:untrusted_app_30:s0:c82,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c82,c257,c512,c768 tclass=file app=org.botzilla.botzilla
+14805 	03-25 12:19:39.322 25759 28798 W Parcel  : Expecting binder but got null!
+14806 	03-25 12:19:39.332  1537  1746 I ActivityTaskManager: Displayed org.botzilla.botzilla/org.kivy.android.PythonActivity: +305ms
+14807 	03-25 12:19:39.339 25759 28804 I python  : Initialized python
+14808 	03-25 12:19:39.339 25759 28804 I python  : AND: Init threads
+14809 	03-25 12:19:39.339 25759 28804 I python  : testing python print redirection
+14810 	03-25 12:19:39.340 25759 25759 E SurfaceSyncer: Failed to find sync for id=0
+14811 	03-25 12:19:39.340 25759 28804 I python  : Android path ['.', '/data/user/0/org.botzilla.botzilla/files/app/_python_bundle/stdlib.zip', '/data/user/0/org.botzilla.botzilla/files/app/_python_bundle/modules', '/data/user/0/org.botzilla.botzilla/files/app/_python_bundle/site-packages']
+14812 	03-25 12:19:39.340 25759 28804 I python  : os.environ is environ({'PATH': '/product/bin:/apex/com.android.runtime/bin:/apex/com.android.art/bin:/system_ext/bin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin', 'ANDROID_BOOTLOGO': '1', 'ANDROID_ROOT': '/system', 'ANDROID_ASSETS': '/system/app', 'ANDROID_DATA': '/data', 'ANDROID_STORAGE': '/storage', 'ANDROID_ART_ROOT': '/apex/com.android.art', 'ANDROID_I18N_ROOT': '/apex/com.android.i18n', 'ANDROID_TZDATA_ROOT': '/apex/com.android.tzdata', 'EXTERNAL_STORAGE': '/sdcard', 'ASEC_MOUNTPOINT': '/mnt/asec', 'DOWNLOAD_CACHE': '/data/cache', 'TERMINFO': '/system_ext/etc/terminfo', 'BOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/telephony-ext.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.btservices/javalib/framework-bluetooth.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.wifi/javalib/framework-wifi.jar', 'DEX2OATBOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/telephony-ext.jar:/apex/com.android.i18n/javalib/core-icu4j.jar', 'SYSTEMSERVERCLASSPATH': '/system/framework/com.android.location.provider.jar:/system/framework/services.jar:/system/framework/org.lineageos.platform.jar:/apex/com.android.adservices/javalib/service-adservices.jar:/apex/com.android.adservices/javalib/service-sdksandbox.jar:/apex/com.android.appsearch/javalib/service-appsearch.jar:/apex/com.android.art/javalib/service-art.jar:/apex/com.android.media/javalib/service-media-s.jar:/apex/com.android.permission/javalib/service-permission.jar', 'STANDALONE_SYSTEMSERVER_JARS': '/apex/com.android.btservices/javalib/service-bluetooth.jar:/apex/com.android.os.statsd/javalib/service-statsd.jar:/apex/com.android.scheduling/javalib/service-scheduling.jar:/apex/com.android.tethering/javalib/service-connectivity.jar:/apex/com.android.uwb/javalib/service-uwb.jar:/apex/com.android.wifi/javalib/service-wifi.jar', 'ANDROID_SOCKET_zygote': '23', 'ANDROID_SOCKET_usap_pool_primary': '24', 'TMPDIR': '/data/user/0/org.botzilla.botzilla/cache', 'ANDROID_ENTRYPOINT': 'main.pyc', 'ANDROID_ARGUMENT': '/data/user/0/org.botzilla.botzilla/files/app', 'ANDROID_APP_PATH': '/data/user/0/org.botzilla.botzilla/files/app', 'ANDROID_PRIVATE': '/data/user/0/org.botzilla.botzilla/files', 'ANDROID_UNPACK': '/data/user
+14813 	03-25 12:19:39.341 25759 28804 I python  : Android kivy bootstrap done. __name__ is __main__
+14814 	03-25 12:19:39.341 25759 28804 I python  : AND: Ran string
+14815 	03-25 12:19:39.341 25759 28804 I python  : Run user program, change dir and execute entrypoint
+14816 	03-25 12:19:39.345 25759 25759 V SDL     : onWindowFocusChanged(): true
+14817 	03-25 12:19:39.357 25759 25759 W SDLThread: type=1400 audit(0.0:3300): avc: granted { execute } for path="/data/data/org.botzilla.botzilla/files/app/_python_bundle/modules/_heapq.cpython-39.so" dev="dm-32" ino=146628 scontext=u:r:untrusted_app_30:s0:c82,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c82,c257,c512,c768 tclass=file app=org.botzilla.botzilla
+14818 	03-25 12:19:39.360 30227 30227 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3302 
+14819 	03-25 12:19:39.364 30227 30227 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2152 repeatCheckTimes = 0, unlocked = true
+14820 	03-25 12:19:39.364 30227 30227 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1930 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=org.botzilla.botzilla fieldId=-1 fieldName=null extras=null}, false)
+14821 	03-25 12:19:39.365 30227 30227 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4116 ShouldHideHeaderOnInitialState = false
+14822 	03-25 12:19:39.365 30227 30227 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2152 repeatCheckTimes = 2, unlocked = true
+14823 	03-25 12:19:39.409 25759 25759 W SDLThread: type=1400 audit(0.0:3301): avc: granted { execute } for path="/data/data/org.botzilla.botzilla/files/app/_python_bundle/modules/math.cpython-39.so" dev="dm-32" ino=151594 scontext=u:r:untrusted_app_30:s0:c82,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c82,c257,c512,c768 tclass=file app=org.botzilla.botzilla
+14824 	03-25 12:19:39.409 25759 25759 W SDLThread: type=1400 audit(0.0:3302): avc: granted { execute } for path="/data/data/org.botzilla.botzilla/files/app/_python_bundle/modules/_bisect.cpython-39.so" dev="dm-32" ino=146927 scontext=u:r:untrusted_app_30:s0:c82,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c82,c257,c512,c768 tclass=file app=org.botzilla.botzilla
+14825 	03-25 12:19:39.457 25759 28804 I python  : [INFO   ] [Logger      ] Record log in /data/user/0/org.botzilla.botzilla/files/app/.kivy/logs/kivy_23-03-25_12.txt
+14826 	03-25 12:19:39.457 25759 28804 I python  : [INFO   ] [Kivy        ] v2.1.0
+14827 	03-25 12:19:39.458 25759 28804 I python  : [INFO   ] [Kivy        ] Installed at "/data/user/0/org.botzilla.botzilla/files/app/_python_bundle/site-packages/kivy/__init__.pyc"
+14828 	03-25 12:19:39.458 25759 28804 I python  : [INFO   ] [Python      ] v3.9.9 (main, Mar 22 2023, 23:48:05) 
+14829 	03-25 12:19:39.458 25759 28804 I python  : [Clang 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb
+14830 	03-25 12:19:39.458 25759 28804 I python  : [INFO   ] [Python      ] Interpreter at ""
+14831 	03-25 12:19:39.458 25759 28804 I python  : [INFO   ] [Logger      ] Purge log fired. Processing...
+14832 	03-25 12:19:39.460 25759 28804 I python  : [INFO   ] [Logger      ] Purge finished!
+14833 	03-25 12:19:39.461 25759 28804 I python  : [INFO   ] [KivyMD      ] 1.0.2, git-38fe356, 2022-08-11 (installed at "/data/user/0/org.botzilla.botzilla/files/app/_python_bundle/site-packages/kivymd/__init__.pyc")
+14834 	03-25 12:19:39.463 25759 28804 I python  : [INFO   ] [Factory     ] 189 symbols loaded
+14835 	03-25 12:19:39.523  1537  2650 D CoreBackPreview: Window{a971224 u0 Splash Screen org.botzilla.botzilla EXITING}: Setting back callback null
+14836 	03-25 12:19:39.524  1537  2085 W InputManager-JNI: Input channel object 'a971224 Splash Screen org.botzilla.botzilla (client)' was disposed without first being removed with the input manager!
+14837 	03-25 12:19:40.195 25759 28804 I python  : [INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+14838 	03-25 12:19:40.213 25759 28804 I python  : [INFO   ] [Text        ] Provider: sdl2
+14839 	03-25 12:19:40.429 25759 25759 W SDLThread: type=1400 audit(0.0:3347): avc: granted { execute } for path="/data/data/org.botzilla.botzilla/files/app/_python_bundle/modules/_decimal.cpython-39.so" dev="dm-32" ino=146703 scontext=u:r:untrusted_app_30:s0:c82,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c82,c257,c512,c768 tclass=file app=org.botzilla.botzilla
+14840 	03-25 12:19:40.437 25759 25759 W SDLThread: type=1400 audit(0.0:3348): avc: granted { execute } for path="/data/data/org.botzilla.botzilla/files/app/_python_bundle/site-packages/kivy/core/window/_window_sdl2.so" dev="dm-32" ino=154154 scontext=u:r:untrusted_app_30:s0:c82,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c82,c257,c512,c768 tclass=file app=org.botzilla.botzilla
+14841 	03-25 12:19:40.449 25759 28804 I python  : [INFO   ] [Window      ] Provider: sdl2
+14842 	03-25 12:19:40.449 25759 25759 W SDLThread: type=1400 audit(0.0:3349): avc: granted { execute } for path="/data/data/org.botzilla.botzilla/files/app/_python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_glew.so" dev="dm-32" ino=154314 scontext=u:r:untrusted_app_30:s0:c82,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c82,c257,c512,c768 tclass=file app=org.botzilla.botzilla
+14843 	03-25 12:19:40.449 25759 25759 W SDLThread: type=1400 audit(0.0:3350): avc: granted { execute } for path="/data/data/org.botzilla.botzilla/files/app/_python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_gl.so" dev="dm-32" ino=154308 scontext=u:r:untrusted_app_30:s0:c82,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c82,c257,c512,c768 tclass=file app=org.botzilla.botzilla
+14844 	03-25 12:19:40.449 25759 25759 W SDLThread: type=1400 audit(0.0:3351): avc: granted { execute } for path="/data/data/org.botzilla.botzilla/files/app/_python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_sdl2.so" dev="dm-32" ino=154307 scontext=u:r:untrusted_app_30:s0:c82,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c82,c257,c512,c768 tclass=file app=org.botzilla.botzilla
+14845 	03-25 12:19:40.459 25759 28804 V hidapi  : initialize(true, false)
+14846 	03-25 12:19:40.463 25759 28804 V SDL     : setOrientation() requestedOrientation=1 width=800 height=600 resizable=true hint=Portrait
+14847 	03-25 12:19:40.464 25759 28804 I SDL/APP : pixel format wanted SDL_PIXELFORMAT_RGBA8888 (1), got SDL_PIXELFORMAT_RGBA8888 (1)
+14848 	03-25 12:19:40.466 25759 28804 I python  : [INFO   ] [GL          ] Using the "OpenGL ES 2" graphics system
+14849 	03-25 12:19:40.471 25759 28804 I python  : [INFO   ] [GL          ] Backend used <sdl2>
+14850 	03-25 12:19:40.471 25759 28804 I python  : [INFO   ] [GL          ] OpenGL version <b'OpenGL ES 3.2 V@0502.0 (GIT@3d24e2bbef, I3c0bc64a9d, 1636541542) (Date:11/10/21)'>
+14851 	03-25 12:19:40.471 25759 28804 I python  : [INFO   ] [GL          ] OpenGL vendor <b'Qualcomm'>
+14852 	03-25 12:19:40.471 25759 28804 I python  : [INFO   ] [GL          ] OpenGL renderer <b'Adreno (TM) 610'>
+14853 	03-25 12:19:40.472 25759 28804 I python  : [INFO   ] [GL          ] OpenGL parsed version: 3, 2
+14854 	03-25 12:19:40.472 25759 28804 I python  : [INFO   ] [GL          ] Texture max size <16384>
+14855 	03-25 12:19:40.472 25759 28804 I python  : [INFO   ] [GL          ] Texture max units <16>
+14856 	03-25 12:19:40.500 25759 28804 I python  : [INFO   ] [Window      ] auto add sdl2 input provider
+14857 	03-25 12:19:40.500 25759 28804 I python  : [INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+14858 	03-25 12:19:40.943 25759 28804 I python  : [INFO   ] [GL          ] NPOT texture support is available
+14859 	03-25 12:19:41.478 25759 28804 I python  : [WARNING] [Base        ] Unknown <android> provider
+14860 	03-25 12:19:41.479 25759 28804 I python  : [INFO   ] [Base        ] Start application main loop
+14861 	03-25 12:19:42.217   796  6468 D audio_hw_primary: out_standby: enter: stream (0xe8a821a0) usecase(1: low-latency-playback)
+14862 	03-25 12:19:42.287   796  6468 D audio_hw_primary: disable_audio_route: reset and update mixer path: low-latency-playback
+14863 	03-25 12:19:42.288   796  6468 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+14864 	03-25 12:19:42.288   796  6468 D hardware_info: hw_info_append_hw_type : device_name = speaker
+14865 	03-25 12:19:42.288   796  6468 D audio_hw_primary: disable_snd_device: snd_device(2: speaker)
+14866 	03-25 12:19:42.288   796  6468 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+14867 	03-25 12:19:44.880  2292  2292 D ShellBackPreview: Finishing gesture with event action: 1
+14868 	03-25 12:19:44.880  2292  2292 D ShellBackPreview: onGestureFinished() mTriggerBack == false
+14869 	03-25 12:19:44.880  2292  2292 D ShellBackPreview: BackAnimationController: finishAnimation()
+14870 	03-25 12:19:44.978 25759 28804 I python  : [INFO   ] [Base        ] Leaving application in progress...
+14871 	03-25 12:19:44.978 25759 28804 I python  :  Traceback (most recent call last):
+14872 	03-25 12:19:44.979 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/app/main.py", line 41, in <module>
+14873 	03-25 12:19:44.979 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/app.py", line 955, in run
+14874 	03-25 12:19:44.979 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 574, in runTouchApp
+14875 	03-25 12:19:44.979 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 339, in mainloop
+14876 	03-25 12:19:44.980 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 383, in idle
+14877 	03-25 12:19:44.980 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 334, in dispatch_input
+14878 	03-25 12:19:44.980 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/base.py", line 263, in post_dispatch_input
+14879 	03-25 12:19:44.981 25759 28804 I python  :    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+14880 	03-25 12:19:44.981 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/core/window/__init__.py", line 1660, in on_motion
+14881 	03-25 12:19:44.981 25759 28804 I python  :    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+14882 	03-25 12:19:44.981 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/core/window/__init__.py", line 1677, in on_touch_down
+14883 	03-25 12:19:44.982 25759 28804 I python  :    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+14884 	03-25 12:19:44.982 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/relativelayout.py", line 306, in on_touch_down
+14885 	03-25 12:19:44.982 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
+14886 	03-25 12:19:44.982 25759 28804 I python  :    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+14887 	03-25 12:19:44.983 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/relativelayout.py", line 306, in on_touch_down
+14888 	03-25 12:19:44.983 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
+14889 	03-25 12:19:44.983 25759 28804 I python  :    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+14890 	03-25 12:19:44.984 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
+14891 	03-25 12:19:44.984 25759 28804 I python  :    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+14892 	03-25 12:19:44.984 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/screenmanager.py", line 1210, in on_touch_down
+14893 	03-25 12:19:44.984 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
+14894 	03-25 12:19:44.985 25759 28804 I python  :    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+14895 	03-25 12:19:44.985 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/relativelayout.py", line 306, in on_touch_down
+14896 	03-25 12:19:44.985 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/widget.py", line 589, in on_touch_down
+14897 	03-25 12:19:44.985 25759 28804 I python  :    File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+14898 	03-25 12:19:44.986 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivymd/uix/button/button.py", line 917, in on_touch_down
+14899 	03-25 12:19:44.986 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivymd/uix/behaviors/ripple_behavior.py", line 352, in on_touch_down
+14900 	03-25 12:19:44.986 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/uix/behaviors/button.py", line 151, in on_touch_down
+14901 	03-25 12:19:44.987 25759 28804 I python  :    File "kivy/_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+14902 	03-25 12:19:44.987 25759 28804 I python  :    File "kivy/_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+14903 	03-25 12:19:44.987 25759 28804 I python  :    File "kivy/_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
+14904 	03-25 12:19:44.987 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/kivy/lang/builder.py", line 55, in custom_callback
+14905 	03-25 12:19:44.988 25759 28804 I python  :    File "/data/data/org.botzilla.botzilla/files/app/chat.kv", line 35, in <module>
+14906 	03-25 12:19:44.988 25759 28804 I python  :      on_press: root.search()
+14907 	03-25 12:19:44.988 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/app/main.py", line 18, in search
+14908 	03-25 12:19:44.988 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/app/main.py", line 31, in result
+14909 	03-25 12:19:44.989 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_resources/completion.py", line 25, in create
+14910 	03-25 12:19:44.989 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+14911 	03-25 12:19:44.989 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 216, in request
+14912 	03-25 12:19:44.989 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 509, in request_raw
+14913 	03-25 12:19:44.990 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 490, in _prepare_request_raw
+14914 	03-25 12:19:44.990 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/botzilla/arm64-v8a/openai/api_requestor.py", line 409, in request_headers
+14915 	03-25 12:19:44.990 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Lib/platform.py", line 1235, in platform
+14916 	03-25 12:19:44.991 25759 28804 I python  :    File "/home/thariq/BotZilla/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Lib/platform.py", line 196, in libc_ver
+14917 	03-25 12:19:44.991 25759 28804 I python  :  IsADirectoryError: [Errno 21] Is a directory: '/data/data/org.botzilla.botzilla/files/app'
+14918 	03-25 12:19:44.991 25759 28804 I python  : Python for android ended.
