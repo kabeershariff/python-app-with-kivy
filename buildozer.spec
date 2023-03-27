@@ -37,14 +37,14 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.10.6,kivy,kivymd==1.0.2,openai,tqdm,aiohttp,aiosignal,yarl,multidict,async-timeout,attrs,frozenlist,idna,charset-normalizer==2.1.1,requests,urllib3,pillow
+requirements = python3,kivy,kivymd==1.0.2,openai,tqdm,aiohttp,aiosignal,yarl,multidict,async-timeout,attrs,frozenlist,idna,charset-normalizer==2.1.1,requests,urllib3,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-#presplash.filename = %(source.dir)s/data/presplash.png
+presplash.filename = icon.png
 
 # (str) Icon of the application
 icon.filename = icon.png
@@ -95,7 +95,7 @@ fullscreen = 0
 
 # (list) Permissions
 # (See https://python-for-android.readthedocs.io/en/latest/buildoptions/#build-options-1 for all the supported syntaxes and properties)
-android.permissions = INTERNET, WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE
+android.permissions = INTERNET, ACCESS_NETWORK_STATE , WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
